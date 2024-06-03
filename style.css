@@ -89,6 +89,10 @@ button{
     background-color: #AF8260;
 }
 
+button a{
+    color: #ebd5b9;
+}
+
 button a:unvisited{
     color: #ebd5b9;
 }

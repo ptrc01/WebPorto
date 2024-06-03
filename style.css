@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono";
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+#logo{
+    width: 67px;
+    height: 76px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 0px 50px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 93%;
+    margin: 0px 50px 0px 50px;
+}  
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+header a{
+    color: #322C2B;
+    font-weight: bolder;
+}
+
+header ul li a.active{
+    color: #803D3B;
+}
+
+header ul li a:hover{
+    color: #AF8260;
+}
+
+#about{
+    margin: 50px 60px 0px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#about div{
+    text-align: end;
+    max-width: 760px;
+    
+}
+
+#about h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+#hi{
+    font-size: 48px;
+    color: #AF8260;
+}
+
+#about h2{
+    margin-bottom: 10px;
+}
+
+#about img{
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 20px 20px 20px #AF8260;
+}
+
+button{
+    color: #ebd5b9;
+    width: 130px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: #AF8260;
+}
+
+button a:unvisited{
+    color: #ebd5b9;
+}
+
+button a:visited{
+    color: #ebd5b9;
+}
+
+#skill{
+    background-color: #ebd5b9;
+    margin: 80px 60px 0px 60px;
+    border-radius: 20px;
+    background-image: linear-gradient(#ebd5b9, #AF8260);
+}
+
+#skill h2{
+    text-align: center;
+    padding-top: 30px;
+    color: #AF8260;
+    font-size: 32px;
+}
+
+#things {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+#things img{
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+#experience{
+    margin: 80px 60px 0px 60px;
+}
+
+#experience h1{
+    font-size: 38px;
+    color: #322C2B;
+}
+
+.journey-left{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+#content-left h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #803D3B;
+}
+
+#content-left h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#content-left p{
+    max-width: 800px;
+    font-size: 20px;
+}
+
+.journey-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    text-align: end;
+    gap: 30px;
+    margin-top: 50px
+}
+
+#content-right{
+    padding: 20px;
+    outline: 3px solid #ebd5b9;
+    box-shadow: 20px 20px 30px #AF8260;
+    border-radius: 20px;
+
+}
+
+#content-right h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #803D3B;
+    
+}
+
+#content-right h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#content-right p{
+    max-width: 800px;
+    font-size: 20px;
+}
+
+#project {
+    margin: 80px 60px 0px 60px;
+
+}
+
+#project h1{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#projectDetail{
+    outline: 3px solid #AF8260;
+    border-radius: 20px;
+    width: 426px;
+    height: 650px;
+    background-color: #ebd5b9;
+}
+
+#projectDetail img{
+    justify-content: space-evenly;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#projectDetail h2{
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 5px;
+    color: #AF8260;
+}
+
+#projectDetail h3{
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#projectDetail p{
+    padding: 10px 10px 0px 10px;
+    color: white;
+}
+
+#projectDetail button{
+    position: relative;
+    left: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    padding: 10px;
+    margin-top: 80px;
+    background-color: #322C2B;
+    gap: 30px;
+}
+
+footer h2{
+    color: #ebd5b9;
+    font-size: 18px;
+    text-align: center;
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
